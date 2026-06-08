@@ -1,6 +1,6 @@
 <template>
   <div class="league-item" @click="$emit('card-click', league.id)">
-    <strong>{{ league.name }}</strong> — {{ league.country }}
+    <strong>{{ league.name }}</strong> — {{ league.stadium }}
   </div>
 </template>
 
